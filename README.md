@@ -1,0 +1,1 @@
+Сайт авторской игрушки. HTML/CSS/JavaScript.

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Листинг</title>
+    <link rel='stylesheet' href='css/style-item.css'>
+
+</head>
+<body>
+<!-------------------header---------------------->
+<header>
+    <!---------------navigation_bar------------------>
+    <div id="navbar">
+        <div id="menu">
+            <a href="index.html">Главная</a>&nbsp
+            <a href="aboutme.html">Обо мне</a>&nbsp
+            <a href="order.html">Купить</a>&nbsp
+            <a href="blog.html">Блог</a>&nbsp
+        </div>
+    </div>
+    <!----------------logo----------------------------->
+    <img id="logo" src='img/logo.png'>
+</header>
+<!-------------slider--------------------------------->
+<section id="item">
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slides">
+                <div id="slides_1" class="slide">
+                    <img src="/img/5.jpg">
+                    <a class="slide_prev" href="#slides_5" title="Next"></a>
+                    <a class="slide_next" href="#slides_2" title="Next"></a>
+                </div>
+                <div id="slides_2" class="slide">
+                    <img src="/img/5-1.jpg">
+                    <a class="slide_prev" href="#slides_1" title="Prev"></a>
+                    <a class="slide_next" href="#slides_3" title="Next"></a>
+                </div>
+                <div id="slides_3" class="slide">
+                    <img src="/img/5-2.jpg">
+                    <a class="slide_prev" href="#slides_2" title="Prev"></a>
+                    <a class="slide_next" href="#slides_4" title="Next"></a>
+                </div>
+                <div id="slides_4" class="slide">
+                    <img src="/img/5-3.jpg">
+                    <a class="slide_prev" href="#slides_3" title="Prev"></a>
+                    <a class="slide_next" href="#slides_5" title="Next"></a>
+                </div>
+                <div id="slides_5" class="slide">
+                    <img src="/img/5-4.jpg">
+                    <a class="slide_prev" href="#slides_4" title="Prev"></a>
+                    <a class="slide_next" href="#slides_1" title="Prev"></a>
+                </div>
+            </div>
+            <div class="slider_nav">
+                <a class="slider_navlink" href="#slides_1"></a>
+                <a class="slider_navlink" href="#slides_2"></a>
+                <a class="slider_navlink" href="#slides_3"></a>
+                <a class="slider_navlink" href="#slides_4"></a>
+                <a class="slider_navlink" href="#slides_5"></a>
+            </div>
+        </div>
+        <div class="container-priсe">
+            <div id="text">
+                <h1>4500</h1>
+                <h1>Виктор</h1>
+                <p id="price">
+                    Мишка сшит из немецкой вискозы ручной окраски.
+                    Набит холлофайбером, утяжелен стеклянным гранулятом.
+                    Крепления лап и головы - шплинтовые.
+                    Колпак и фартук из хлопка.
+                    В сумке ручной работы - багет (пластик). Рост 17 см (с колпаком).
+                </p>
+                <div id="button">
+                    <form action="order.html" target="_blank"><button>Купить</button></form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--------------footer----------------------------------------->
+<footer>
+    <h2>Islet Workshop</h2>
+    <h2>+7(914) 191 20 99</h2>
+</footer>
+</body>
+</html>
