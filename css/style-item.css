@@ -243,9 +243,6 @@ a.slide_next,
 	margin-top:20px;
 	text-align:center;
 }
-/*.columns {
-    display:flex;
-    columns-gap:20px;*/
 }
 .slider-container {
     width:50%;
@@ -276,6 +273,16 @@ a.slide_next,
 }
 @media (max-width:767px) {
     #item section {
+    max-width:none;
+    }
+}
+@media (max-width:767px) {
+    .slider-container {
+    max-width:100%;
+    }
+}
+@media (max-width:767px) {
+    .container-priсe {
     max-width:100%;
     }
 }
