@@ -153,7 +153,6 @@ div.me {
     max-width:none;
     }
 }
-
 @media (max-width:767px) {
 div.inline-outer {
 	display:inline-block;
