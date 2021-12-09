@@ -266,11 +266,11 @@ a.slide_next,
 }
 #text p {
     font: normal 14px "Аrial";
-    padding:0px 20px;
+    padding:20px 20px;
     width:80%;
     /*height:300px;*/
 }
 #button {
     text-align:right;
-    margin:0px 20px;
+    margin:20px 20px;
 }
