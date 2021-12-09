@@ -147,12 +147,12 @@ div.me {
     width: 100%;
     border-radius:20px;
 }
-/*добавляем адаптивную верстку
+/*добавляем адаптивную верстку*/
 @media (max-width:767px) {
     section, footer, header {
     max-width:none;
     }
-}*/
+}
 @media (max-width:767px) {
 div.inline-outer {
 	display:inline-block;
