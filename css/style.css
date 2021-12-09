@@ -187,3 +187,9 @@ p       {
         }
 }
 */
+@media (max-width:767px) {
+    #logo {
+        width:150px;
+        height:90px;
+    }
+}
