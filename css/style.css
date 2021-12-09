@@ -163,3 +163,9 @@ div.inline-outer {
 	text-align:center;
 	}
 }
+/*добавила увеличение шрифта и уменьшила отступы для адаптива*/
+@media (max-width:767px) {
+    body {
+    font-size:20px;
+    padding:5px;}
+}
