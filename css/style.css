@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: "Kiwi Maru";
     font-weight: regular;
     src: url("/fonts/KiwiMaru-Regular.ttf") format("opentype");
@@ -13,7 +13,7 @@
     font-weight: light;
     src: url("/fonts/KiwiMaru-Light.ttf") format("opentype");
 }
-
+*/
 body {
 	font: normal 14px "Аrial";
 	color:#866a5a;
@@ -184,4 +184,20 @@ p       {
         font: normal 20px "Аrial";
         text-align:justify;
         }
+}
+/*перенесла шрифты вниз*/
+@font-face {
+    font-family: "Kiwi Maru";
+    font-weight: regular;
+    src: url("/fonts/KiwiMaru-Regular.ttf") format("opentype");
+}
+@font-face {
+    font-family: "Kiwi Maru";
+    font-weight: medium;
+    src: url("/fonts/KiwiMaru-Medium.ttf") format("opentype");
+}
+@font-face {
+    font-family: "Kiwi Maru";
+    font-weight: light;
+    src: url("/fonts/KiwiMaru-Light.ttf") format("opentype");
 }
