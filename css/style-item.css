@@ -251,8 +251,8 @@ a.slide_next,
     width:50%;
 }
 .container-priсe {
-    width:400px;
-    height:500px;
+    width:30%;
+    /*height:500px;*/
     position:absolute;
     top:20px;
     left:600px;
