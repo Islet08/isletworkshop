@@ -164,9 +164,10 @@ div.inline-outer {
 	}
 }
 /*добавила увеличение шрифта и уменьшила отступы для адаптива*/
+/*
 @media (max-width:767px) {
     body {
-    /*font: normal 20px "Аrial";*/
+    font: normal 20px "Аrial";
     color:#866a5a;
     padding:5px;
     background-color:#fbf4ef;
@@ -185,3 +186,4 @@ p       {
         text-align:justify;
         }
 }
+*/
