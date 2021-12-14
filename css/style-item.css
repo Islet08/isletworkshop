@@ -1,17 +1,17 @@
 @font-face {
     font-family: "Kiwi Maru";
     font-weight: regular;
-    src: url("fonts/KiwiMaru-Regular.ttf") format("opentype");
+    src: url("../fonts/KiwiMaru-Regular.ttf") format("opentype");
 }
 @font-face {
     font-family: "Kiwi Maru";
     font-weight: medium;
-    src: url("fonts/KiwiMaru-Medium.ttf") format("opentype");
+    src: url("../fonts/KiwiMaru-Medium.ttf") format("opentype");
 }
 @font-face {
     font-family: "Kiwi Maru";
     font-weight: light;
-    src: url("fonts/KiwiMaru-Light.ttf") format("opentype");
+    src: url("../fonts/KiwiMaru-Light.ttf") format("opentype");
 }
 
 body {
