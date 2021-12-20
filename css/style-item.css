@@ -271,4 +271,49 @@ a.slide_next,
     text-align:right;
     margin:20px 20px;
 }
+@media (max-width:767px) {
+    section, footer, header {
+    max-width:none;
+    }
+}
+@media (max-width:767px) {
+div.inline-outer {
+	display:inline-block;
+	vertical-align: top;
+	width:50%;
+	padding: 0;
+	margin-top:20px;
+	text-align:center;
+	}
+}
+/*добавила увеличение шрифта и уменьшила отступы для адаптива*/
+/*
+@media (max-width:767px) {
+    body {
+    font: normal 20px "Аrial";
+    color:#866a5a;
+    padding:5px;
+    background-color:#fbf4ef;
+    }
+}
+@media (max-width:767px) {
+h2, h3 {
+        font: normal 30px "Kiwi Maru", "Times New", serif;
+        height: 50px;
+        text-align:center;
+        }
+}
+@media (max-width:767px) {
+p       {
+        font: normal 20px "Аrial";
+        text-align:justify;
+        }
+}
+*/
+@media (max-width:767px) {
+    #logo {
+        width:150px;
+        height:90px;
+    }
+}
 

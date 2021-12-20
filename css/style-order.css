@@ -133,7 +133,7 @@ div.inline-outer {
     visibility:hidden;
     transition:all 0.5s ease 0s;
 }
-.form_body .sending::after {
+.form_body ._sending::after {
     opacity:1;
     visibility:visible;
 }
@@ -150,7 +150,7 @@ div.inline-outer {
     display:block;
     margin:0px 0px 10px 0px;
 }
-.form_input_req, .form_input_req_email{
+.form_input_req, .form_input_req_email, .form_input_req_phone {
     height:50px;
     padding:0px 20px;
     border-radius:5px;
@@ -241,4 +241,49 @@ footer {
     margin-bottom:10px;
     background-color:#ffffff;
     border-radius:20px;
+}
+@media (max-width:767px) {
+    section, footer, header {
+    max-width:none;
+    }
+}
+@media (max-width:767px) {
+div.inline-outer {
+	display:inline-block;
+	vertical-align: top;
+	width:50%;
+	padding: 0;
+	margin-top:20px;
+	text-align:center;
+	}
+}
+/*добавила увеличение шрифта и уменьшила отступы для адаптива*/
+/*
+@media (max-width:767px) {
+    body {
+    font: normal 20px "Аrial";
+    color:#866a5a;
+    padding:5px;
+    background-color:#fbf4ef;
+    }
+}
+@media (max-width:767px) {
+h2, h3 {
+        font: normal 30px "Kiwi Maru", "Times New", serif;
+        height: 50px;
+        text-align:center;
+        }
+}
+@media (max-width:767px) {
+p       {
+        font: normal 20px "Аrial";
+        text-align:justify;
+        }
+}
+*/
+@media (max-width:767px) {
+    #logo {
+        width:150px;
+        height:90px;
+    }
 }

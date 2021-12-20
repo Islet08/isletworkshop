@@ -147,3 +147,17 @@ p       {
         height:90px;
     }
 }
+
+#photo  {
+    text-align:center;
+    }
+img {
+    border-radius:20px;
+}
+@media (max-width:767px) {
+    img {
+        width:60%px;
+        height:auto;
+        text-align:left;
+    }
+}
