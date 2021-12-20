@@ -316,6 +316,12 @@ p       {
         height:90px;
     }
 }
+@media (max-width:500px) {
+body p {
+    font-weight:700;
+    font-size:20px;
+}
+}
 button {
     background-color:#e8c9b4;
     font-color:#866a5a;
