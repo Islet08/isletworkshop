@@ -242,12 +242,12 @@ footer {
     background-color:#ffffff;
     border-radius:20px;
 }
-@media (max-width:767px) {
+@media (max-width:500px) {
     section, footer, header {
     max-width:none;
     }
 }
-@media (max-width:767px) {
+@media (max-width:500px) {
 div.inline-outer {
 	display:inline-block;
 	vertical-align: top;
@@ -257,7 +257,7 @@ div.inline-outer {
 	text-align:center;
 	}
 }
-@media (max-width:767px) {
+@media (max-width:500px) {
 div.container-aboutme {
 	display:inline-block;
 	vertical-align: top;
@@ -267,7 +267,7 @@ div.container-aboutme {
 	text-align:center;
 	}
 }
-@media (max-width:767px) {
+@media (max-width:500px) {
 body {
     font-weight:700;
     font-size:20px;
@@ -297,7 +297,7 @@ p       {
         }
 }
 */
-@media (max-width:767px) {
+@media (max-width:500px) {
 div.container-aboutme {
 	display:inline-block;
 	vertical-align: top;
@@ -307,13 +307,13 @@ div.container-aboutme {
 	text-align:center;
 	}
 }
-@media (max-width:767px) {
+@media (max-width:500px) {
 body {
     font-weight:700;
     font-size:20px;
 }
 }
-@media (max-width:767px) {
+@media (max-width:500px) {
     #logo {
         width:150px;
         height:90px;
