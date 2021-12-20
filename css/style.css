@@ -187,7 +187,7 @@ p       {
         }
 }
 */
-@media (max-width:767px) {
+@media (max-width:500px) {
 div.container-aboutme {
 	display:inline-block;
 	vertical-align: top;
@@ -197,13 +197,13 @@ div.container-aboutme {
 	text-align:center;
 	}
 }
-@media (max-width:767px) {
-body {
+@media (max-width:500px) {
+body p {
     font-weight:700;
     font-size:20px;
 }
 }
-@media (max-width:767px) {
+@media (max-width:500px) {
     #logo {
         width:150px;
         height:90px;
