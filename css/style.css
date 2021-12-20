@@ -148,11 +148,11 @@ div.me {
     border-radius:20px;
 }
 /*добавляем адаптивную верстку*/
-@media (max-width:500px) {
+/*@media (max-width:500px) {
     section, footer, header {
     max-width:none;
     }
-}
+}*/
 @media (max-width:500px) {
 div.inline-outer {
 	display:inline-block;
