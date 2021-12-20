@@ -286,6 +286,25 @@ div.inline-outer {
 	text-align:center;
 	}
 }
+@media (max-width:500px) {
+section #item  {
+	display:block;
+	vertical-align: top;
+	width:100%;
+	padding: 0;
+	margin-top:20px;
+	text-align:center;
+	}
+}
+@media (max-width:500px) {
+div.slider, div.container-priсe {
+	vertical-align: top;
+	width:100%;
+	padding: 0;
+	margin-top:20px;
+	text-align:center;
+	}
+}
 /*добавила увеличение шрифта и уменьшила отступы для адаптива*/
 /*
 @media (max-width:767px) {
