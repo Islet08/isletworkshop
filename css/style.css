@@ -193,3 +193,29 @@ p       {
         height:90px;
     }
 }
+.form_button {
+    max-width:550px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:60px;
+    background-color:#e8c9b4;
+    color:#866a5a;
+    font-size:18px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:700;
+    cursor:pointer;
+    border-radius:20px;
+    box-shadow:0 5px 0 #866a5a;
+    transition:background-color 0.5s ease 0s;
+    position:relative;
+    top:0;
+}
+.form_button:hover {
+    background-color:#e8c9b4;
+}
+.form_button:active {
+    top:3px;
+    box-shadow:0 2px 0 #866a5a;
+}
