@@ -148,12 +148,12 @@ div.me {
     border-radius:20px;
 }
 /*добавляем адаптивную верстку*/
-@media (max-width:767px) {
+@media (max-width:500px) {
     section, footer, header {
     max-width:none;
     }
 }
-@media (max-width:767px) {
+@media (max-width:500px) {
 div.inline-outer {
 	display:inline-block;
 	vertical-align: top;
@@ -187,7 +187,23 @@ p       {
         }
 }
 */
-@media (max-width:767px) {
+@media (max-width:500px) {
+div.container-aboutme {
+	display:inline-block;
+	vertical-align: top;
+	width:100%;
+	padding: 0;
+	margin-top:20px;
+	text-align:center;
+	}
+}
+@media (max-width:500px) {
+body p {
+    font-weight:700;
+    font-size:20px;
+}
+}
+@media (max-width:500px) {
     #logo {
         width:150px;
         height:90px;

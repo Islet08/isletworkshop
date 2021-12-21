@@ -102,12 +102,12 @@ footer {
 h1 {
     margin:20px 65px;
 }
-@media (max-width:767px) {
+@media (max-width:500px) {
     section, footer, header {
     max-width:none;
     }
 }
-@media (max-width:767px) {
+@media (max-width:500px) {
 div.inline-outer {
 	display:inline-block;
 	vertical-align: top;
@@ -116,6 +116,12 @@ div.inline-outer {
 	margin-top:20px;
 	text-align:center;
 	}
+}
+@media (max-width:500px) {
+body p {
+    font-weight:700;
+    font-size:20px;
+}
 }
 /*добавила увеличение шрифта и уменьшила отступы для адаптива*/
 /*
@@ -141,7 +147,7 @@ p       {
         }
 }
 */
-@media (max-width:767px) {
+@media (max-width:500px) {
     #logo {
         width:150px;
         height:90px;
