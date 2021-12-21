@@ -15,18 +15,18 @@
 }
 
 body {
-	font: normal 14px "Аrial";
+	font: normal 14pt "Аrial";
 	color:#866a5a;
 	padding:20px;
 	background-color:#fbf4ef;
 }
 h2, h3 {
-        font: normal 22px "Kiwi Maru", "Times New", serif;
+        font: normal 22pt "Kiwi Maru", "Times New", serif;
         height: 50px;
         text-align:center;
 }
 h1 {
-font: normal 22px "Kiwi Maru", "Times New", serif;
+font: normal 22pt "Kiwi Maru", "Times New", serif;
       height: 50px;
       text-align:left;
       margin:10px 20px;
@@ -107,7 +107,7 @@ footer {
     display:flex;
     align-items:center;
     height:70%;
-    position:relative;
+    /*position:relative;*/
 }
 .slider {
     width:100%;
@@ -250,26 +250,23 @@ a.slide_next,
 .container-priсe {
     width:30%;
     /*height:500px;*/
-    position:absolute;
+    /*position:absolute;*/
     top:20px;
     left:600px;
-    border:1px dotted #866a5a;
-    border-radius:20px;
+    /*border:1px dotted #866a5a;
+    border-radius:20px;*/
 }
 #priсe p {
-    font: normal 22px "Kiwi Maru", "Times New", serif;
+    font: normal 22pt "Kiwi Maru", "Times New", serif;
     /*height: 50px;*/
     text-align:left;
 }
 #text p {
-    font: normal 14px "Аrial";
+    font: normal 14pt "Аrial";
     padding:0px 20px;
     width:80%;
+    text-align:justify;
     /*height:300px;*/
-}
-#button {
-    text-align:right;
-    margin:20px 20px;
 }
 @media (max-width:767px) {
     section, footer, header {
@@ -302,14 +299,13 @@ h2, h3 {
         height: 50px;
         text-align:center;
         }
-}
+}*/
 @media (max-width:767px) {
-p       {
-        font: normal 20px "Аrial";
-        text-align:justify;
+body, div  {
+        padding;5px;
         }
 }
-*/
+
 @media (max-width:767px) {
     #logo {
         width:150px;
@@ -317,15 +313,27 @@ p       {
     }
 }
 button {
+    align:center;
     background-color:#e8c9b4;
     font-color:#866a5a;
-    font-size:18px;
+    font-size:18pt;
     font-weight:700;
-    border-radius:20%;
-    padding:10px 20px;
+    border-radius:10%;
+    padding:10px 60px;
+    margin:20px;
     cursor:pointer;
     }
 button:hover {
     background-color:#039a54;
     }
-
+@media (max-width:640px) {
+    button {
+    background-color:#e8c9b4;
+        font-color:#866a5a;
+        font-size:60pt;
+        font-weight:700;
+        border-radius:20%;
+        padding:20px 30px;
+        cursor:pointer;
+    }
+}
