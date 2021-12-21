@@ -27,7 +27,7 @@ h2, h3 {
 }
 p       {
         font: normal 14pt "Аrial";
-        text-align:justify;
+        text-align:center;
 }
 /*--------------navigation-bar-style----------*/
 #navbar {
