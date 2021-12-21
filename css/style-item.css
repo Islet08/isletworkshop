@@ -31,10 +31,7 @@ font: normal 22pt "Kiwi Maru", "Times New", serif;
       text-align:left;
       margin:10px 20px;
     }
-/*p       {
-        font: normal 14px "Аrial";
-        text-align:justify;
-}*/
+
 /*--------------navigation-bar-style----------*/
 #navbar {
         position:fixed;
@@ -44,6 +41,7 @@ font: normal 22pt "Kiwi Maru", "Times New", serif;
         width:100%;
         height:45px;
         background-color:#e8c9b4;
+        z-index:1;
 }
 /*------menu-style---------*/
 #menu {
@@ -51,7 +49,7 @@ font: normal 22pt "Kiwi Maru", "Times New", serif;
 	text-align:center;
 	margin:0 auto;
 	padding:10px;
-	font:none 16px arial;
+	font:none 16pt arial;
 }
 #menu a{
 	text-decoration:none;
@@ -249,12 +247,9 @@ a.slide_next,
 }
 .container-priсe {
     width:30%;
-    /*height:500px;*/
-    /*position:absolute;*/
     top:20px;
-    left:600px;
-    /*border:1px dotted #866a5a;
-    border-radius:20px;*/
+ /*   left:600px;*/
+
 }
 #priсe p {
     font: normal 22pt "Kiwi Maru", "Times New", serif;
@@ -264,9 +259,7 @@ a.slide_next,
 #text p {
     font: normal 14pt "Аrial";
     padding:0px 20px;
-    width:80%;
     text-align:justify;
-    /*height:300px;*/
 }
 @media (max-width:767px) {
     section, footer, header {
@@ -274,38 +267,10 @@ a.slide_next,
     }
 }
 @media (max-width:767px) {
-div.inline-outer {
-	display:inline-block;
-	vertical-align: top;
-	width:50%;
-	padding: 0;
-	margin-top:20px;
-	text-align:center;
-	}
-}
-/*добавила увеличение шрифта и уменьшила отступы для адаптива*/
-/*
-@media (max-width:767px) {
-    body {
-    font: normal 20px "Аrial";
-    color:#866a5a;
-    padding:5px;
-    background-color:#fbf4ef;
-    }
-}
-@media (max-width:767px) {
-h2, h3 {
-        font: normal 30px "Kiwi Maru", "Times New", serif;
-        height: 50px;
-        text-align:center;
-        }
-}*/
-@media (max-width:767px) {
 body, div  {
         padding;5px;
         }
 }
-
 @media (max-width:767px) {
     #logo {
         width:150px;
@@ -326,14 +291,4 @@ button {
 button:hover {
     background-color:#039a54;
     }
-@media (max-width:640px) {
-    button {
-    background-color:#e8c9b4;
-        font-color:#866a5a;
-        font-size:60pt;
-        font-weight:700;
-        border-radius:20%;
-        padding:20px 30px;
-        cursor:pointer;
-    }
-}
+

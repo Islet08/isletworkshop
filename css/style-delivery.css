@@ -15,18 +15,18 @@
 }
 
 body {
-	font: normal 14px "Аrial";
+	font: normal 14pt "Аrial";
 	color:#866a5a;
 	padding:20px;
 	background-color:#fbf4ef;
 }
 h2, h3 {
-        font: normal 22px "Kiwi Maru", "Times New", serif;
+        font: normal 22pt "Kiwi Maru", "Times New", serif;
         height: 50px;
         text-align:center;
 }
 p       {
-        font: normal 14px "Аrial";
+        font: normal 14pt "Аrial";
         text-align:justify;
 }
 /*--------------navigation-bar-style----------*/
@@ -45,7 +45,7 @@ p       {
 	text-align:center;
 	margin:0 auto;
 	padding:10px;
-	font:none 16px arial;
+	font:none 16pt arial;
 }
 #menu a{
 	text-decoration:none;
@@ -120,33 +120,9 @@ div.inline-outer {
 @media (max-width:500px) {
 body p {
     font-weight:700;
-    font-size:20px;
+    font-size:20pt;
 }
 }
-/*добавила увеличение шрифта и уменьшила отступы для адаптива*/
-/*
-@media (max-width:767px) {
-    body {
-    font: normal 20px "Аrial";
-    color:#866a5a;
-    padding:5px;
-    background-color:#fbf4ef;
-    }
-}
-@media (max-width:767px) {
-h2, h3 {
-        font: normal 30px "Kiwi Maru", "Times New", serif;
-        height: 50px;
-        text-align:center;
-        }
-}
-@media (max-width:767px) {
-p       {
-        font: normal 20px "Аrial";
-        text-align:justify;
-        }
-}
-*/
 @media (max-width:500px) {
     #logo {
         width:150px;
