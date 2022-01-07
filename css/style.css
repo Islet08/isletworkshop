@@ -55,6 +55,9 @@ p       {
 	color:#ffffff;
 	text-decoration:underline;
 }
+#action h5 {
+    text-align:right;
+}
 /*-------------section-style------------------*/
 section {
 	padding:30px 30px;
