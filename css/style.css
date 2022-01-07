@@ -57,7 +57,10 @@ p       {
 }
 #action h5 {
     text-align:right;
-    margin:20pt 0 pt;
+    margin-top:30pt;
+}
+#action p {
+    text-align:right;
 }
 /*-------------section-style------------------*/
 section {
