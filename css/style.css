@@ -20,7 +20,7 @@ body {
 	padding:20px;
 	background-color:#fbf4ef;
 }
-h2, h3 {
+h2, h3, h6 {
         font: normal 22pt "Kiwi Maru", "Times New", serif;
         height: 50px;
         text-align:center;
@@ -55,7 +55,6 @@ p       {
 	color:#ffffff;
 	text-decoration:underline;
 }
-
 /*-------------section-style------------------*/
 section {
 	padding:30px 30px;
